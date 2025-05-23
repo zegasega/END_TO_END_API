@@ -21,7 +21,7 @@ class EmailService {
     }
 
     if (email !== "zegasega11@gmail.com") {
-      throw new Error('Email onaylı değil');
+      throw new Error('Email is not registered');
     }
 
     const params = {
